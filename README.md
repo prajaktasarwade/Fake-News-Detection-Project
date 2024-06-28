@@ -1,3 +1,15 @@
-This data science project is step by step process of predecting the fake news. We will first build a model train and test it. During model building we will cover almost all data science concepts such as data load and cleaning, outlier detection and removal, feature engineering, dimensionality reduction, cross validation etc. Technology and tools wise this project covers,
+- Project Objective
 
-Python Numpy and Pandas for data cleaning Matplotlib for data visualization Sklearn for model building.
+This machine learning model is built for predicting the news wheather it is real or fake using logisttic regresion 
+
+- Task
+
+ 1. Data preprocessing
+     – Handled NA values.
+     – Used Stopword to remove the words which is not adding the value in sentecne.
+     – Used Steamming to reduced the word into its root word.
+    
+2. Feature Extraction - Vectorizer to convert the text data into numerical data.
+3. checked the accourcy of model using accuracy score.
+
+- Library Used Python ,Numpy and Pandas,nltk,stopword,PorterStemmer,TfidfVectorizer, LogisticRegression, accuracy_score,Sklearn for model building.
